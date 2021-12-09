@@ -94,12 +94,13 @@ public class Order implements Serializable{
 		return products;
 	}
 
-	public void setProducts(Set<Product> products) {
-		this.products = products;
-	}
 
 	public OrderStatus getStatus() {
 		return status;
+	}
+
+	public void setStatus(OrderStatus status) {
+		this.status = status;
 	}
 
 	@Override
